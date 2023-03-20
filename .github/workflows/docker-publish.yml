@@ -73,7 +73,7 @@ jobs:
         uses: docker/build-push-action@v4
         with:
           push: true
-          tags: ${{ env.IMAGE_NAME }}:latest
+          tags: ${{ env.REGISTRY }}/${{ github.repository }}/playground:latest
 
 
       # Sign the resulting Docker image digest except on PRs.
