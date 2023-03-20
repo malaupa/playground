@@ -73,7 +73,7 @@ jobs:
         uses: docker/build-push-action@v4
         with:
           push: true
-          tags: ${{ env.REGISTRY }}/${{ github.repository }}:latest
+          tags: ${{ env.REGISTRY }}/malaupa/playground_app:latest
 
 
       # Sign the resulting Docker image digest except on PRs.
