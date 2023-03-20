@@ -5,6 +5,8 @@ name: DockerUsage
 # separate terms of service, privacy policy, and support
 # documentation.
 
+on: workflow_dispatch
+
 jobs:
   build:
 
