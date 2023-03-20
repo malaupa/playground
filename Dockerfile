@@ -1,3 +1,3 @@
 FROM node:19-alpine
 
-COPY main.mjs /opt/lib
+COPY main.mjs /opt/lib/
